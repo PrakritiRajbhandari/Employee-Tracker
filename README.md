@@ -6,6 +6,10 @@ The objective of the application was to architect and build a solution for manag
 
 Clone the repository or download and unpack the source code of the project. Install 'npm intall' and all the Dependencies 'chalk' 'inquirer' 'Mysql'
 
+## Database Structure
+
+<img src="./Image/schema.PNG" alt="Database Structure "/>
+
 ## Running the Application
 
 Run 'node server.js'
