@@ -42,9 +42,8 @@ const db = new Database({
 });
 
 // render image
-function renderImage() {
-  console.log(
-    chalk.hex("	#228B22")(String.raw`
+console.log(
+  chalk.hex("#228B22")(String.raw`
 #######                                                    #######                                           
 #       #    # #####  #       ####  #   # ###### ######       #    #####    ##    ####  #    # ###### #####  
 #       ##  ## #    # #      #    #  # #  #      #            #    #    #  #  #  #    # #   #  #      #    # 
@@ -52,9 +51,7 @@ function renderImage() {
 #       #    # #####  #      #    #   #   #      #            #    #####  ###### #      #  #   #      #####  
 #       #    # #      #      #    #   #   #      #            #    #   #  #    # #    # #   #  #      #   #  
 ####### #    # #      ######  ####    #   ###### ######       #    #    # #    #  ####  #    # ###### #    # `)
-  );
-  console.log(chalk.dim("  Database\n"));
-}
+);
 
 async function main() {
   let DepartmentList = await db.query(
