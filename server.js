@@ -1,4 +1,5 @@
 require("events").EventEmitter.defaultMaxListeners = 40;
+const chalk = require("chalk");
 const inquirer = require("inquirer");
 const mysql = require("mysql");
 
@@ -39,6 +40,21 @@ const db = new Database({
   password: "Dell2009.",
   database: "Employee_tracker",
 });
+
+// render image
+function renderImage() {
+  console.log(
+    chalk.hex("	#228B22")(String.raw`
+#######                                                    #######                                           
+#       #    # #####  #       ####  #   # ###### ######       #    #####    ##    ####  #    # ###### #####  
+#       ##  ## #    # #      #    #  # #  #      #            #    #    #  #  #  #    # #   #  #      #    # 
+#####   # ## # #    # #      #    #   #   #####  #####        #    #    # #    # #      ####   #####  #    # 
+#       #    # #####  #      #    #   #   #      #            #    #####  ###### #      #  #   #      #####  
+#       #    # #      #      #    #   #   #      #            #    #   #  #    # #    # #   #  #      #   #  
+####### #    # #      ######  ####    #   ###### ######       #    #    # #    #  ####  #    # ###### #    # `)
+  );
+  console.log(chalk.dim("  Database\n"));
+}
 
 async function main() {
   let DepartmentList = await db.query(
