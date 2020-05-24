@@ -37,7 +37,7 @@ Run 'node server.js'
 
 # Example of the working app
 
-<img src="./Image/Employee_tracker.mp4" alt="View menu "/>
+<img src="./Image/Capture.PNG" alt="working app example "/>
 
 ## Authors
 
