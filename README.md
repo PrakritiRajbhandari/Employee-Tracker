@@ -12,6 +12,8 @@ Clone the repository or download and unpack the source code of the project. Inst
 
 ## Running the Application
 
+# Start
+
 Run 'node server.js'
 
 - The application has four basic options that the user has to choose when it is run.
@@ -20,13 +22,22 @@ Run 'node server.js'
 - Update
 - Remove
 
-## Built With
+<img src="./Image/start.PNG" alt="Start menu "/>
 
-- Javascript
-- Node.js
-- Express
-- JSON
-- ES6
+# View
+
+- View all Departments
+- View all Roles
+- View all Employees
+- View Employees by Department
+- View Employees by Role
+- view All
+
+<img src="./Image/view.PNG" alt="View menu "/>
+
+# Example of the working app
+
+<img src="./Image/Employee_tracker.mp4" alt="View menu "/>
 
 ## Authors
 
