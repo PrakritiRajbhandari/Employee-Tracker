@@ -35,6 +35,10 @@ Run 'node server.js'
 
 <img src="./Image/view.PNG" alt="View menu "/>
 
+# Example of the working app
+
+<img src="./Image/Capture.PNG" alt="working app example "/>
+
 ## Authors
 
 - **Prakriti Rajbhandari** - [PrakritiRajbhandari](https://github.com/PrakritiRajbhandari)
