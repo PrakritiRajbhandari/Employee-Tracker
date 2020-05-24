@@ -37,7 +37,7 @@ Run 'node server.js'
 
 # Example of the working app
 
-<img src="./Image/Capture.PNG" alt="working app example "/>
+<img src="./Image/Capture1.PNG" alt="working app example "/>
 
 ## Authors
 
