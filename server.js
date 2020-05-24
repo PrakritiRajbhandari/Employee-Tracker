@@ -37,7 +37,7 @@ const db = new Database({
   user: "root",
 
   // Your password
-  password: "Dell2009.",
+  password: "12345",
   database: "Employee_tracker",
 });
 
