@@ -8,7 +8,7 @@ Clone the repository or download and unpack the source code of the project. Inst
 
 ## Database Structure
 
-<img src="./Image/schema.PNG" alt="Database Structure "/>
+<img src="./Image/schema.png" alt="Database Structure "/>
 
 ## Running the Application
 
